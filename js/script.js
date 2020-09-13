@@ -10,6 +10,7 @@ $(window).on('load', function(){
 
 $('.nav-item').on('click',function(e){
     $('.menu ul').removeClass('slide');
+    $('.burger-toggle span').removeClass('open');
 
     // var tujuan = $(this).attr('href');
     
